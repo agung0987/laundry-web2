@@ -22,7 +22,7 @@ class TPengeluaranResource extends Resource
 {
     protected static ?string $model = t_pengeluaran::class;
 
-    protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
+    protected static ?string $navigationIcon = 'heroicon-o-arrow-down';
     protected static ?string $navigationLabel = 'Pengeluaran';
     protected static ?string $navigationGroup = 'Transaksi';
     protected static ?string $label = 'Transaksi Pengeluaran';
